@@ -1,0 +1,9 @@
+{
+  "name": "react-context-starter",
+  "version": "1.0.0",
+  "description": "A starter pack for React, Context API and PostCSS, all bundled using Webpack",
+  "main": "client.js",
+  "repository": "https://github.com/3tmaan/react-context-starter",
+  "author": "Othmane Abisourour <abisourour.othmane@gmail.com>",
+  "license": "MIT",
+}
