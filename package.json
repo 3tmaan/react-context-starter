@@ -2,7 +2,7 @@
   "name": "react-context-starter",
   "version": "1.0.0",
   "description": "A starter pack for React, Context API and PostCSS bundled using Webpack",
-  "main": "client.js",
+  "main": "./src/client.js",
   "scripts": {
     "build": "node_modules/.bin/webpack",
     "start": "node_modules/.bin/webpack-dev-server --open"
@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.5.4",
+    "axios": "^0.19.1",
     "classnames": "^2.2.6",
     "es6-promise": "^4.2.8",
     "isomorphic-fetch": "^2.2.1",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
@@ -35,6 +37,7 @@
     "postcss-nested": "^4.1.2",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.7.2"
   }
 }
